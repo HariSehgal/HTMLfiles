@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3-question 2</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/action">
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text">
+        </div>
+        <br>
+        <div>
+            Sex:
+            <input type="radio" name="sex" id="m" value="m">
+            <label for="m">Male</label>
+            <input type="radio" name="sex" id="f" value="f">
+            <label for="f">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option val="select">Select an option</option>
+                <option val="IND">India</option>
+                <option val="USA">America</option>
+                <option val="UK">United Kingdom</option>
+                <option val="CND">Canada</option>
+                <option val="BR">Brazil</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="msg">Message:</label>
+            <br>
+            <textarea id="msg" name="msg"></textarea>
+        </div>
+        <br>
+        <div>
+            <input id="checkbox" type="checkbox" name="checkbox">
+            <label for="checkbox">Suscribe?</label>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
